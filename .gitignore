@@ -1,0 +1,9 @@
+/.vscode/settings.json
+/payment
+/policy
+**__pycache__**
+transaction.raw
+transaction.signed
+utxo.txt
+metadata.json
+policy.json

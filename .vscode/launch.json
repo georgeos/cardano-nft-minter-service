@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "mint-nft",
+            "type": "python",
+            "request": "launch",
+            "program": "<path-to-virtual-env>/bin/gunicorn",
+            "gevent": true,
+            "args": ["mint-nft:api", "--bind=0.0.0.0:5000", "--timeout=300", "-k gevent", "--reload"],
+        }
+    ]
+}
